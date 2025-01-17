@@ -1,9 +1,18 @@
 import React from 'react'
 
-function Signup() {
+function SignUp() {
   return (
-    <div>Signup</div>
+    <>
+     <h1>Log in</h1>
+     <form>
+        <input type='text'  placeholder='email' />
+
+        <input type='password'  placeholder='password' />
+     </form>
+    
+    </>
+   
   )
 }
 
-export default Signup
+export default SignUp ;

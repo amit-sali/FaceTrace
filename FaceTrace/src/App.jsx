@@ -1,6 +1,6 @@
 import './App.css'
 import Home from './components/Home'
-import Register from './components/Register'
+import SignUp from './components/Signup'
 import Login from './components/Login'
 import {Routes, Route} from 'react-router-dom'
 import Card from './components/Card'
@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route exact path='/' Component={Home} />
         <Route exact path='/login' Component={Login} />
-        <Route exact path='/register' Component={Register} />
+        <Route exact path='/register' Component={SignUp} />
       </Routes>
     </>
   )
