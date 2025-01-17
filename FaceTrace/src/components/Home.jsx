@@ -11,7 +11,7 @@ const navigation = [
   { name: 'Company', href: '#' },
 ]
 
-export default function Hero() {
+export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
@@ -86,13 +86,19 @@ export default function Hero() {
                     </a>
                   ))}
                 </div>
+
+
+
                 <div className="py-6">
-                  <a
-                    href="#"
+                  <Link 
+                    to="/login"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                   >
                     Log in
-                  </a>
+                  </Link>
+
+
+
                 </div>
               </div>
             </div>
@@ -133,15 +139,33 @@ export default function Hero() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
 
 
-             <Link to="/register">
+
+
+
+
+
+
+             
               <a
                 href="#"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Get started
               </a>
-              </Link>
+          
             
+
+
+
+
+
+
+
+
+
+
+
+
 
               <a href="#" className="text-sm/6 font-semibold text-gray-900">
                 Learn more <span aria-hidden="true">→</span>
