@@ -10,15 +10,15 @@ import Navbar from './components/Navbar'
 function App() {
  
   return (
-    <>
+  <>
     {/* <Card/> */}
-      <Navbar/>
+    <Navbar/>
       <Routes>
         {/* <Route exact path='/' Component={Home} /> */}
         <Route exact path='/login' Component={Login} />
         <Route exact path='/register' Component={SignUp} />
       </Routes>
-    </>
+</>
   )
 }
 
