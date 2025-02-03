@@ -1,1 +1,69 @@
 https://excalidraw.com/#json=wNSsXPTIXZhXA6Qoi4jcB,8Z68hTZcdTdviR_PGyk1qA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+      <div> 
+        <nav>
+          <div>
+            <h1>
+              <a href="/">Food Ninja</a>
+            </h1>
+          </div>
+            <ul>
+              <li>
+                <a href="#">
+                  <span>Home</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span>About</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span>Contact</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span>Home</span>
+                </a>
+              </li>
+
+            </ul>
+        </nav>
+      </div> 
+      <!-- nav end -->
+
+      <main>
+        <div>
+          <a href="#">Log in</a>
+          <a href="#">sign up</a>
+
+        </div>
+        <header>
+          <h2>recipes</h2>
+          <h3> for ninjas</h3>
+        </header>
+      </main>
+</div>
