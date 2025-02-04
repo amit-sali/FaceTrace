@@ -9,7 +9,7 @@ function Intro() {
                 FaceTrace
             </div>
 
-            <div className="   ">
+            <div className=" text-center pt-12 m-6 flex items-center justify-center  ">
                 <p>facial sketch construction &  face recorginition web app</p>
             </div>
         </div>
